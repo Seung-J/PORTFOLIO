@@ -1,0 +1,236 @@
+@media screen and (max-width:767px){
+
+}
+/* mobile Using CSS */
+@media screen and (min-width:768px) and (max-width:1023px){
+
+}
+/* tablet Using CSS */
+@media screen and (min-width:1024px){
+    .prArea{width: 100%; height: 100vh; position: relative;}
+    .prArea h2,
+    .prArea dl{
+        position: absolute; width: 100%; height: 100vh;
+        text-align: center; box-sizing: border-box; padding-top: 22%;
+    }
+    .prArea h2{
+        background: url(../images/mainBG.png) no-repeat center;
+        background-size: cover; text-indent: -9999px;
+    }
+    .prArea dl dt{padding-bottom: 3%;}
+    .prArea dl dt span{
+        font-size: 5.5vw; padding-bottom: 3%; color: #6A804D !important;
+        font-weight: 300;
+    }
+    .prArea dl dd{font-size: 3vw; color: #8AA663; font-weight: 300;}
+    /* prArea css fin */
+
+    .aboutMeArea{
+        width: 100%; height: 100vh;
+        background: linear-gradient( to bottom, #bbfcf8, #ecf6de, #fed9d0 );
+    }
+    .aboutMeArea h2{
+        font-size: 4vw; padding-top: 8vh; height: 10vh; text-align: center; color: #FF6685;
+        font-weight: 300;
+    }
+    .aboutMeArea ul::after{content: ""; display: block; visibility: hidden; clear: both;}
+    .aboutMeArea > ul > li{
+        float: left; width: 22.5%; height: 80vh; margin-left: 2%;
+    }
+    .aboutMeArea > ul > li h3{
+        width: 100%; text-align: center;
+        box-sizing: border-box; text-indent: -9999px;
+    }
+    .aboutMeArea > ul > li:first-of-type h3{
+        background: url(../images/iconIMG1.png) no-repeat center;
+        background-size: contain; width: 100%;  height: 20%; margin-top: 15vh;
+    }
+    .aboutMeArea > ul > li:nth-of-type(2) h3{
+        background: url(../images/iconIMG4.png) no-repeat center;
+        background-size: contain; width: 100%;  height: 14%; margin-top: 15vh;
+    }
+    .aboutMeArea > ul > li:nth-of-type(3) h3{
+        background: url(../images/iconIMG2.png) no-repeat center;
+        background-size: contain; width: 100%;  height: 17%; margin-top: 15vh;
+    }
+    .aboutMeArea > ul > li:last-of-type h3{
+        background: url(../images/iconIMG3.png) no-repeat center;
+        background-size: contain; width: 100%;  height: 17%; margin-top: 15vh;
+    }
+    .aboutMeArea > ul > li:first-of-type dl{
+        text-align: center; margin-top: 10%; color: black;
+    }
+    .aboutMeArea > ul > li:first-of-type dl dt{font-size: 2vw; padding-bottom: 6%;}
+    .aboutMeArea > ul > li:first-of-type dl dd{ font-size: 1.5vw;}
+    .aboutMeArea > ul > li:first-of-type dl dd:nth-of-type(2){padding-bottom: 4%;}
+    .aboutMeArea > ul > li:first-of-type dl dd:first-of-type{padding-bottom: 7%;}
+    .aboutMeArea > ul > li:nth-of-type(2) > ul li:first-of-type{margin-top: 10%;}
+    .aboutMeArea > ul > li:nth-of-type(2) > ul li{
+        list-style: square; text-align: left; font-size: 1.2VW; padding-bottom: 3%;
+        width: 100%; margin-left: 22%; color: black;
+    }
+    .aboutMeArea ul li:nth-of-type(3) > ul li h4{
+        text-align: center; font-size: 1.3vw; margin-top: 5%; padding-bottom: 2%;
+        color: black;
+    }
+    .aboutMeArea ul li:nth-of-type(3) > ul li dl{margin: 0 auto;}
+    .aboutMeArea ul li:nth-of-type(3) > ul li dl{
+        height: 3vh; background-color: #ccc; border-radius: 10px; width: 70%; 
+    }
+    .aboutMeArea ul li:nth-of-type(3) > ul li dl dt{
+        border-radius: 10px; height: 3vh; background: linear-gradient( to right, #bbfcf8, #ecf6de, #fed9d0 );
+        float: left; text-align: right; line-height: 25px; color: black;
+    }
+    .aboutMeArea ul li:nth-of-type(3) > ul li:not(:last-of-type) dl dt{
+        width: 90%; animation: moveGraph1 5s 1;
+    }
+    .aboutMeArea ul li:nth-of-type(3) > ul li:last-of-type dl dt{
+        width: 30%; animation: moveGraph2 5s 1; 
+    }
+    @keyframes moveGraph1{
+        from{
+            width: 0;
+        }
+        to{
+            width: 90%;
+        }
+    }
+    @keyframes moveGraph2{
+        from{
+            width: 0;
+        }
+        to{
+            width: 30%;
+        }
+    }
+    .aboutMeArea ul li:last-of-type > ul li h4{
+        text-align: center; font-size: 1.3vw; margin-top: 7%; padding-bottom: 2%;
+        color: black;
+    }
+    .aboutMeArea ul li:last-of-type > ul li:first-of-type h4{margin-top: 10%;}
+    .aboutMeArea ul li:last-of-type > ul li dl{margin: 0 auto;}
+    .aboutMeArea ul li:last-of-type > ul li dl{
+        height: 3vh; background-color: #ccc; border-radius: 10px; width: 70%;
+    }
+    .aboutMeArea ul li:last-of-type > ul li dl dt{
+        border-radius: 10px; height: 3vh; background: linear-gradient( to right, #bbfcf8, #ecf6de, #fed9d0 );
+        float: left; text-align: right; line-height: 25px; width: 80%; color: black;
+        animation: moveGraph3 5s 1; 
+    }
+    @keyframes moveGraph3{
+        from{
+            width: 0;
+        }
+        to{
+            width: 80%;
+        }
+    }
+    .aboutMeArea ul li:nth-of-type(3) > ul li dl dd,
+    .aboutMeArea ul li:last-of-type > ul li dl dd{display: none;}
+    /* .aboutMeArea css fin */
+
+    .portfolioArea{
+        width: 100%; height: 100vh; margin: 0; padding: 0;
+        background: url(../images/portfolioBG.png) no-repeat center;
+        background-size: cover; position: relative;
+    }
+    .portfolioArea::after{content: ""; display: block; visibility: hidden; clear: both;}
+    .portfolioArea h2{
+        font-size: 4vw; padding-top: 8vh; height: 9vh; text-align: center; color: #FF6685;
+        font-weight: 300;
+    }
+    .portfolioArea ul:first-of-type{
+        float: left; width: 70%;  position: relative; height: 80vh;
+    }
+    .portfolioArea ul:first-of-type li{
+        position: absolute; bottom: 0;
+    }
+    .portfolioArea ul:first-of-type li a img{
+        width: 100%; height: 82vh;
+    }
+    .portfolioArea > ul:last-of-type{
+        position: absolute; width: 30%; right: 0; height: 50vh;
+    }
+    .portfolioArea > ul:last-of-type li:not(:last-of-type){
+        position: absolute; right: 25%; margin-top: 43%; text-align: center;
+    }
+    .portfolioArea > ul:last-of-type li.portfolText3{
+        position: absolute; right: 30%; margin-top: 22vh; text-align: center;
+    }
+    .portfolioArea > ul:last-of-type li:first-of-type{display: block;}
+    .portfolioArea > ul:last-of-type li:nth-of-type(2){display: none;}
+    .portfolioArea > ul:last-of-type li:last-of-type{display: none;}
+    .portfolioArea ul:first-of-type li:first-of-type{display: block;}
+    .portfolioArea ul:first-of-type li:nth-of-type(2){display: none;}
+    .portfolioArea ul:first-of-type li:last-of-type{display: none;}
+    .portfolioArea > ul:last-of-type li dl dt{
+        font-size: 1.8vw; padding-bottom: 10%; 
+    }
+    .portfolioArea > ul:last-of-type li dl dd{
+        font-size: 1.5vw; padding-bottom: 10%; 
+    }
+    .button{position: absolute; right: 3vw; bottom: 10vh;}
+    .button button{
+        background-color: transparent;
+        /* background: linear-gradient( to right, #CEF2EF, #F2EDD5, #B6F2E7 ); */
+        color: #FF6685;  border: none;
+        position:relative;
+        height:60px;
+        font-size:1vw;
+        padding:0 1vw;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+      }
+    .button button:hover{
+        background:#fff;
+        color:#FF6685;
+      }
+    .button button:before,.button button:after{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #FF6685;
+        transition:400ms ease all;
+      }
+    .button button:after{
+        right:inherit;
+        top:inherit;
+        left:0;
+        bottom:0;
+      }
+    .button button:hover:before,.button button:hover:after{
+        width:100%;
+        transition:800ms ease all;
+    }
+    /* portfolio css fin */
+
+    .artworkArea{
+        width: 100%; height: 100vh;
+        background: linear-gradient( to bottom, #bbfcf8, #ecf6de, #fed9d0 );
+    }
+    .artworkArea h2{
+        font-size: 4vw; padding-top: 8vh; height: 9vh; text-align: center; color: #FF6685;
+        font-weight: 300;
+    }
+    .artworkArea ul{width: 100%;}
+    .artworkArea ul::after{content: ""; display: block; visibility: hidden; clear: both;}
+    .artworkArea ul li{
+        float: left; width: 18%; height: 23vh; 
+        box-sizing: border-box; margin: 1%;
+        cursor: pointer;
+    }
+    .artworkArea ul li img{width: 100%; height: 100%;}
+    .contactArea{
+        width: 100%; height: 100vh;
+        background: linear-gradient( to bottom, #bbfcf8, #ecf6de, #fed9d0 );
+    }
+    .contactArea h2{
+        font-size: 4vw; padding-top: 8vh; height: 9vh; text-align: center; color: #FF6685;
+        font-weight: 300;
+    }
+}
+/* desktop Using CSS */

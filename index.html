@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>웹퍼블리셔 이승재 포트폴리오</title>
+    <link rel="stylesheet" href="css/import.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/counterup.js"></script>
+    <script src="js/index.js"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.counter').counterUp();
+        });
+        function fnImgPop(url){
+        var img=new Image();
+        img.src=url;
+        var img_width=img.width/2;
+        var win_width=img.width/2;
+        var img_height=img.height/2;
+        var win=img.height/2;
+        var OpenWindow=window.open('','_blank', 'width='+img_width+', height='+img_height+', menubars=no, scrollbars=auto');
+        OpenWindow.document.write("<style>body{margin:0px;}</style><img src='"+url+"' width='"+win_width+"'>");
+    }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>LSJ</h1>
+            <nav>
+                <label for="mnav" class="fas fa-bars mui fa-2x"></label>
+                <input type="checkbox" id="mnav" class="mui">
+                <ul>
+                    <li class="on">
+                        <a href="#pr" class="menu-01">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="menu-02">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="menu-03">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="#artwork" class="menu-04">ARTWORK</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="menu-05">CONTACT ME</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="prArea section-01 scroll" id="pr">
+            <h2>mainBG</h2>
+            <dl>
+                <dt>
+                    <span class="typer" id="main" data-words="Publisher Developer." data-delay="100" data-deleteDelay="1000"></span>
+                    <span class="cursor" data-owner="main"></span>
+                </dt>
+                <dd>LEE SEUNG JAE</dd>
+            </dl>
+        </div>
+        <div class="aboutMeArea section-02 scroll" id="about">
+            <h2>ABOUT ME</h2>
+            <ul>
+                <li>
+                    <h3>profile</h3>
+                    <dl>
+                        <dt>LEE SEUNG JAE</dt>
+                        <dd>신입 웹퍼블리셔</dd>
+                        <dd>seungjae59@gmail.com</dd>
+                        <dd>010.8288.0432</dd>
+                    </dl>
+                </li>
+                <li>
+                    <h3>HISTORY</h3>
+                    <ul>
+                        <li>
+                            <p>부천대학교 전자과 전공</p>
+                            <p>2013.03 ~ 2017.02</p>
+                        </li>
+                        <li>
+                            <p>LG Display 협력업체 근무</p>
+                            <p>2016.11 ~ 2018.02</p>
+                        </li>
+                        <li>
+                            <p>TDS display kiosk 업체 근무</p>
+                            <p>2018.02 ~ 2019.06</p>
+                        </li>
+                        <li>
+                            <p>SBS 아카데미 아트웍 과정</p>
+                            <p>2019.07 ~ 2019.11</p>
+                        </li>
+                        <li>
+                            <p>SBS 아카데미 Publisher 과정</p>
+                            <p>2019.08 ~ 2020.02</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Publishing</h3>
+                    <ul>
+                        <li>
+                            <h4>HTML</h4>
+                            <dl>
+                                <dt><strong class="counter">90</strong>%</dt>
+                                <dd>HTML 수치</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <h4>CSS</h4>
+                            <dl>
+                                <dt><strong class="counter">90</strong>%</dt>
+                                <dd>CSS 수치</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <h4>JQuery</h4>
+                            <dl>                       
+                                <dt><strong class="counter">30</strong>%</dt>
+                                <dd>JQuery 수치</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Design</h3>
+                    <ul>
+                        <li>
+                            <h4>PHOTOSHOP</h4>
+                            <dl>
+                                <dt><strong class="counter">80</strong>%</dt>
+                                <dd>PHOTOSHOP 수치</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <h4>ILLUSTRATOR</h4>
+                            <dl>
+                                <dt><strong class="counter">80</strong>%</dt>
+                                <dd>ILLUSTRATOR 수치</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="portfolioArea section-03 scroll" id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <ul>
+                <li class="portfolIMG1">
+                    <a href="https://seung-j.github.io/nsBlackhall/index.html">
+                        <img src="images/portfolio1.png" alt="portfolioIMG">
+                    </a>
+                </li>
+                <li class="portfolIMG2">
+                    <a href="https://seung-j.github.io/AstonMartin/index.html">
+                        <img src="images/portfolio2.png" alt="portfolioIMG">
+                    </a>
+                </li>
+                <li class="portfolIMG3">
+                    <a href="">
+                        <img src="images/portfolio2.png" alt="portfolioIMG">
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="portfolText1">
+                    <dl>
+                        <dt>NS-BlackHoll 리뉴얼</dt>
+                        <dd>HTML,CSS,JQuery</dd>
+                        <dd>반응형 제작</dd>
+                        <dd>작업기간 3주</dd>
+                    </dl>
+                    <a href="">github</a>
+                </li>
+                <li class="portfolText2">
+                    <dl>
+                        <dt>AsyonMartin 리뉴얼</dt>
+                        <dd>HTML,CSS,JQuery</dd>
+                        <dd>반응형 제작</dd>
+                        <dd>작업기간 3주</dd>
+                    </dl>
+                    <a href="">github</a>
+                </li>
+                <li class="portfolText3">
+                    <dl>
+                        <dt>포트폴리오<br>랜딩페이지 구축</dt>
+                        <dd>HTML,CSS,JQuery</dd>
+                        <dd>반응형 제작</dd>
+                        <dd>작업기간 2주</dd>
+                    </dl>
+                    <a href="">github</a>
+                </li>
+            </ul>
+            <div class="button">
+                <button id="nsBlackHoll">NS BLACK HOLL</button>
+                <button id="astonMartin">ASTON MARTIN</button>
+                <button id="portfol">PORTFOLIO</button>
+            </div>
+        </div>
+        <div class="artworkArea section-04 scroll" id="artwork">
+            <h2>ARTWORK</h2>
+            <ul>
+                <li><img src="images/artworkIMG1.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG2.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG3.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG4.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG5.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG6.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG7.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG8.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG9.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG10.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG11.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG12.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG13.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG14.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+                <li><img src="images/artworkIMG15.png" alt="artworkIMG" onclick="fnImgPop(this.src)"></li>
+            </ul>
+        </div>
+
+        <div class="contactArea section-05 scroll" id="contact">
+            <h2>CONTACT ME</h2>
+            <dl>
+                <dt>LeeSeungJae</dt>
+                <dd>Add, Incheon, Seo-gu</dd>
+                <dd>Tel.&nbsp;<a href="tel:+821082880432">010-8288-0432</a></dd>
+                <dd>Mail.&nbsp;<a href="mailto:seungjae59@gmail.com">seungjae59@gmail.com</a></dd>
+                <dd>GitHub.&nbsp;<a href="https://github.com/Seung-J">SeungJae GitHub</a></dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>
