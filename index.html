@@ -11,6 +11,7 @@
     <script src="js/counterup.js"></script>
     <script src="js/index.js"></script>
     <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="https://kit.fontawesome.com/ca85dab293.js" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
             $('.counter').counterUp();
@@ -32,9 +33,9 @@
         <header>
             <h1>LSJ</h1>
             <nav>
-                <label for="mnav" class="fas fa-bars mui fa-2x"></label>
-                <input type="checkbox" id="mnav" class="mui">
-                <ul>
+                <input type="checkbox" id="overlay-input" class="mui">
+                <label for="overlay-input" id="overlay-button" class="fas fa-bars mui fa-2x"></label>
+                <ul id="overlay">
                     <li class="on">
                         <a href="#pr" class="menu-01">HOME</a>
                     </li>
