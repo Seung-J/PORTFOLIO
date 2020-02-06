@@ -258,7 +258,7 @@
     .contactArea span img{
         width: 80vw; position: absolute; right: 10vw; top: 20%;
     }
-    .contactArea span p{
+    .contactArea p{
         position: absolute; font-size: 3.5vw; text-align: center;
         right: 27%; top: 28%; color: #425059;
     }
@@ -524,7 +524,7 @@
     .contactArea span img{
         width: 80vw; position: absolute; right: 10vw; top: 20%;
     }
-    .contactArea span p{
+    .contactArea p{
         position: absolute; font-size: 3.5vw; text-align: center;
         right: 27%; top: 28%; color: #425059;
     }
@@ -790,7 +790,7 @@
     .contactArea span img{
         width: 50vw; position: absolute; right: 5%; top: 20%;
     }
-    .contactArea span p{
+    .contactArea p{
         position: absolute; font-size: 2vw; text-align: center;
         right: 17.5%; top: 30%; color: #425059;
     }
