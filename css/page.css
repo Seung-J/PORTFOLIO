@@ -6,7 +6,7 @@
         text-align: center; box-sizing: border-box; padding-top: 60%;
     }
     .prArea h2{
-        background: url(../images/mainTabletBG.png) no-repeat center;
+        background: url(../images/mainMobileBG.png) no-repeat center;
         background-size: cover; text-indent: -9999px;
     }
     .prArea dl dt{padding-bottom: 3%;}
