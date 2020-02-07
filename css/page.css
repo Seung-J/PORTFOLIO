@@ -141,16 +141,10 @@
     .portfolioArea ul:first-of-type li a img{
         width: 100%; height: 40vh;
     }
-
-    .portfolioArea ul:first-of-type li a img:first-of-type{
-        display: block;
-    }
-    .portfolioArea ul:first-of-type li a img:last-of-type{
-        display: none;
-    }
     .portfolioArea > ul:last-of-type{
         position: absolute; width: 100%; right: 8vw; height: 50vh;
     }
+    .portfolioArea > ul:last-of-type li{position: relative;}
     .portfolioArea > ul:last-of-type li.portfolText1{
         position: absolute; right: 24%; margin-top: 47vh; text-align: center;
         height: 100%;
@@ -162,11 +156,41 @@
     .portfolioArea > ul:last-of-type li.portfolText3{
         position: absolute; right: 29%; margin-top: 47vh; text-align: center;
     }
-    .portfolioArea > ul:last-of-type li a{
+    .portfolioArea > ul:last-of-type li:first-of-type a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 8vw; height: 8vw;
+        margin: 0 auto; position: absolute; left: 9.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:first-of-type a:last-of-type{
         text-decoration: none; display: block; text-indent: -9999px;
         background: url(../images/githubIMG.png) no-repeat center;
         background-size: contain; width: 8vw; height: 8vw;
-        margin: 0 auto;
+        margin: 0 auto; position: absolute; left: 20vw;
+    }
+    .portfolioArea > ul:last-of-type li:nth-of-type(2) a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 8vw; height: 8vw;
+        margin: 0 auto; position: absolute; left: 9vw;
+    }
+    .portfolioArea > ul:last-of-type li:nth-of-type(2) a:last-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/githubIMG.png) no-repeat center;
+        background-size: contain; width: 8vw; height: 8vw;
+        margin: 0 auto; position: absolute; left: 18.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:last-of-type a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 8vw; height: 8vw;
+        margin: 0 auto; position: absolute; left: 5vw;
+    }
+    .portfolioArea > ul:last-of-type li:last-of-type a:last-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/githubIMG.png) no-repeat center;
+        background-size: contain; width: 8vw; height: 8vw;
+        margin: 0 auto; position: absolute; left: 15vw;
     }
     .portfolioArea > ul:last-of-type li:first-of-type{display: block;}
     .portfolioArea > ul:last-of-type li:nth-of-type(2){display: none;}
@@ -414,12 +438,6 @@
     .portfolioArea ul:first-of-type li a img{
         width: 100%; height: 40vh;
     }
-    .portfolioArea ul:first-of-type li a img:first-of-type{
-        display: block;
-    }
-    .portfolioArea ul:first-of-type li a img:last-of-type{
-        display: none;
-    }
     .portfolioArea > ul:last-of-type{
         position: absolute; width: 30%; right: 32vw; height: 50vh;
     }
@@ -434,11 +452,29 @@
     .portfolioArea > ul:last-of-type li.portfolText3{
         position: absolute; right: 29.5%; margin-top: 47vh; text-align: center;
     }
-    .portfolioArea > ul:last-of-type li a{
+    .portfolioArea > ul:last-of-type li:not(:last-of-type) a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 6vw; height: 6vw;
+        margin: 0 auto; position: absolute; left: 3.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:not(:last-of-type) a:last-of-type{
         text-decoration: none; display: block; text-indent: -9999px;
         background: url(../images/githubIMG.png) no-repeat center;
         background-size: contain; width: 6vw; height: 6vw;
-        margin: 0 auto;
+        margin: 0 auto; position: absolute; left: 13.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:last-of-type a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 6vw; height: 6vw;
+        margin: 0 auto; position: absolute; left: 0.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:last-of-type a:last-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/githubIMG.png) no-repeat center;
+        background-size: contain; width: 6vw; height: 6vw;
+        margin: 0 auto; position: absolute; left: 9vw;
     }
     .portfolioArea > ul:last-of-type li:first-of-type{display: block;}
     .portfolioArea > ul:last-of-type li:nth-of-type(2){display: none;}
@@ -447,7 +483,7 @@
     .portfolioArea ul:first-of-type li:nth-of-type(2){display: none;}
     .portfolioArea ul:first-of-type li:last-of-type{display: none;}
     .portfolioArea > ul:last-of-type li dl dt{
-        font-size: 3vw; padding-bottom: 10%; 
+        font-size: 2.5vw; padding-bottom: 10%; 
     }
     .portfolioArea > ul:last-of-type li dl dd{
         font-size: 2vw; padding-bottom: 10%; 
@@ -686,21 +722,11 @@
     .portfolioArea ul:first-of-type li a img{
         width: 100%; height: 82vh;
     }
-    .portfolioArea ul:first-of-type li a img:first-of-type{
-        display: block;
-    }
-    .portfolioArea ul:first-of-type li a img:last-of-type{
-        display: none;
-    }
-
-    .portfolioArea ul:first-of-type li a:hover img:first-of-type{
-        display: none;
-    }
-    .portfolioArea ul:first-of-type li a:hover img:last-of-type{
-        display: block;
-    }
     .portfolioArea > ul:last-of-type{
         position: absolute; width: 30%; right: 0; height: 50vh;
+    }
+    .portfolioArea > ul:last-of-type li{
+        position: relative;
     }
     .portfolioArea > ul:last-of-type li.portfolText1{
         position: absolute; right: 24%; margin-top: 24.5vh; text-align: center;
@@ -713,11 +739,29 @@
     .portfolioArea > ul:last-of-type li.portfolText3{
         position: absolute; right: 29.5%; margin-top: 21vh; text-align: center;
     }
-    .portfolioArea > ul:last-of-type li a{
+    .portfolioArea > ul:last-of-type li:not(:last-of-type) a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 3vw; height: 3vw;
+        margin: 0 auto; position: absolute; left: 4.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:not(:last-of-type) a:last-of-type{
         text-decoration: none; display: block; text-indent: -9999px;
         background: url(../images/githubIMG.png) no-repeat center;
         background-size: contain; width: 3vw; height: 3vw;
-        margin: 0 auto;
+        margin: 0 auto; position: absolute; left: 8.5vw;
+    }
+    .portfolioArea > ul:last-of-type li:last-of-type a:first-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/buttonIMG.png) no-repeat center;
+        background-size: contain; width: 3vw; height: 3vw;
+        margin: 0 auto; position: absolute; left: 3vw;
+    }
+    .portfolioArea > ul:last-of-type li:last-of-type a:last-of-type{
+        text-decoration: none; display: block; text-indent: -9999px;
+        background: url(../images/githubIMG.png) no-repeat center;
+        background-size: contain; width: 3vw; height: 3vw;
+        margin: 0 auto; position: absolute; left: 7vw;
     }
     .portfolioArea > ul:last-of-type li:first-of-type{display: block;}
     .portfolioArea > ul:last-of-type li:nth-of-type(2){display: none;}
@@ -726,10 +770,10 @@
     .portfolioArea ul:first-of-type li:nth-of-type(2){display: none;}
     .portfolioArea ul:first-of-type li:last-of-type{display: none;}
     .portfolioArea > ul:last-of-type li dl dt{
-        font-size: 1.8vw; padding-bottom: 10%; 
+        font-size: 1.8vw; padding-bottom: 5%; 
     }
     .portfolioArea > ul:last-of-type li dl dd{
-        font-size: 1.5vw; padding-bottom: 10%; 
+        font-size: 1.5vw; padding-bottom: 5%; 
     }
     .button{position: absolute; right: 3vw; bottom: 10vh;}
     .button button{
