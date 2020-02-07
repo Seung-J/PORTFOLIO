@@ -673,6 +673,19 @@
     .portfolioArea ul:first-of-type li a img{
         width: 100%; height: 82vh;
     }
+    .portfolioArea ul:first-of-type li a img:first-of-type{
+        display: block;
+    }
+    .portfolioArea ul:first-of-type li a img:last-of-type{
+        display: none;
+    }
+
+    .portfolioArea ul:first-of-type li a:hover img:first-of-type{
+        display: none;
+    }
+    .portfolioArea ul:first-of-type li a:hover img:last-of-type{
+        display: block;
+    }
     .portfolioArea > ul:last-of-type{
         position: absolute; width: 30%; right: 0; height: 50vh;
     }
