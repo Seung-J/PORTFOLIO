@@ -148,13 +148,6 @@
     .portfolioArea ul:first-of-type li a img:last-of-type{
         display: none;
     }
-
-    .portfolioArea ul:first-of-type li a:hover img:first-of-type{
-        display: none;
-    }
-    .portfolioArea ul:first-of-type li a:hover img:last-of-type{
-        display: block;
-    }
     .portfolioArea > ul:last-of-type{
         position: absolute; width: 100%; right: 8vw; height: 50vh;
     }
@@ -426,13 +419,6 @@
     }
     .portfolioArea ul:first-of-type li a img:last-of-type{
         display: none;
-    }
-
-    .portfolioArea ul:first-of-type li a:hover img:first-of-type{
-        display: none;
-    }
-    .portfolioArea ul:first-of-type li a:hover img:last-of-type{
-        display: block;
     }
     .portfolioArea > ul:last-of-type{
         position: absolute; width: 30%; right: 32vw; height: 50vh;
