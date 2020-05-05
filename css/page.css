@@ -376,7 +376,7 @@
         width: 90%; animation: moveGraph1 5s 1;
     }
     .aboutMeArea ul li:nth-of-type(3) > ul li:last-of-type dl dt{
-        width: 30%; animation: moveGraph2 5s 1; 
+        width: 50%; animation: moveGraph2 5s 1; 
     }
     @keyframes moveGraph1{
         from{
@@ -391,7 +391,7 @@
             width: 0;
         }
         to{
-            width: 30%;
+            width: 50%;
         }
     }
     .aboutMeArea ul li:last-of-type > ul li h4{
@@ -659,7 +659,7 @@
         width: 90%; animation: moveGraph1 5s 1;
     }
     .aboutMeArea ul li:nth-of-type(3) > ul li:last-of-type dl dt{
-        width: 30%; animation: moveGraph2 5s 1; 
+        width: 50%; animation: moveGraph2 5s 1; 
     }
     @keyframes moveGraph1{
         from{
@@ -674,7 +674,7 @@
             width: 0;
         }
         to{
-            width: 30%;
+            width: 50%;
         }
     }
     .aboutMeArea ul li:last-of-type > ul li h4{
